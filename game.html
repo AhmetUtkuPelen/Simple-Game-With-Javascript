@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOU ARE IN A LUCKY DAY?</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="./soruisareti.png">
+</head>
+<body>
+    
+
+
+
+    <div class="container">
+
+
+        <div class="row">
+
+
+            <div class="col-12">
+
+                <h1 class="text-center text-primary">HELLO THERE WELCOME TO GUESS THE NUMBER GAME</h1>
+
+                <div class="input-group px-5">
+
+                <label class="input-group-text" for="select">CHOOSE A LEVEL</label>
+                <select  id="select" class="form-select">
+
+                    <option selected disabled>PLEASE MAKE YOUR CHOICE</option>
+                    <option value="10">EZ TRAINING (0-10) </option>
+                    <option value="50">MEDIUM SIZE (0-50) </option>
+                    <option value="100">HARDMODE (0-100) </option>
+
+                </select>
+
+                </div>
+
+
+                <div class="input-group px-5 mt-2">
+
+                    <label for="tahmin" class="input-group-text">MAKE A GUESS</label>
+                    <input type="text" class="form-control" id="tahmin" placeholder="WHAT IS YOUR GUESS?">
+
+                </div>
+
+
+                <div class="px-5 mt-2">
+
+                    <p id="sonuc" class="fs-4 text-center text-primary">WHAT IS YOUR NUMBER?</p>
+
+                </div>
+
+
+                <div class="px-5">
+
+                    <button id="btn" class="btn btn-primary w-100">YOUR GUESS <span id="hak" class="badge text-bg-danger">3</span></button>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./game.js"></script>
+</body>
+</html>
